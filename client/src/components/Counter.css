@@ -1,0 +1,29 @@
+.counter {
+    text-align: center;
+    padding: var(--space-6);
+}
+
+.counter-value {
+    font-size: var(--font-size-5xl);
+    font-weight: 800;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1;
+    margin-bottom: var(--space-2);
+}
+
+.counter-label {
+    font-size: var(--font-size-sm);
+    color: var(--dark-400);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .counter-value {
+        font-size: var(--font-size-4xl);
+    }
+}

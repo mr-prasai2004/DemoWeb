@@ -1,0 +1,74 @@
+/* Service Card Styles - Matching UI/UX Design */
+
+.service-card {
+    background: var(--dark-800);
+    border: 1px solid var(--dark-700);
+    border-radius: var(--radius-xl);
+    padding: var(--space-8);
+    position: relative;
+    overflow: hidden;
+    transition: all var(--transition-base);
+}
+
+.service-card:hover {
+    border-color: var(--primary-light);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.service-card-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    background: var(--gradient-primary);
+    border-radius: var(--radius-lg);
+    color: white;
+    margin-bottom: var(--space-5);
+    transition: transform var(--transition-base);
+}
+
+.service-card:hover .service-card-icon {
+    transform: scale(1.1);
+}
+
+.service-card-title {
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--space-3);
+    color: var(--dark-100);
+}
+
+.service-card-description {
+    font-size: var(--font-size-sm);
+    color: var(--dark-400);
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+.service-card-glow {
+    position: absolute;
+    bottom: -50%;
+    right: -50%;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(100, 145, 222, 0.15) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity var(--transition-base);
+    pointer-events: none;
+}
+
+.service-card:hover .service-card-glow {
+    opacity: 1;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+    .service-card {
+        padding: var(--space-6);
+    }
+
+    .service-card-icon {
+        width: 56px;
+        height: 56px;
+    }
+}
