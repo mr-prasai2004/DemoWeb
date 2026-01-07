@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Linkedin, Twitter, Github, Mail, MapPin, Phone } from 'lucide-react';
-import {AayushImage} from '../assets/UIUX/IMG_2560.HEIC';
+import AayushImage from '../assets/images/IMG_2669.jpg';
 import './Team.css';
 
 const Team = () => {
