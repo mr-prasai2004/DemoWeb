@@ -9,12 +9,22 @@ import {
     ArrowRight,
     CheckCircle,
     Server,
-    ShieldCheck
+    ShieldCheck,
+    Calendar,
+    MessageCircle
 } from 'lucide-react';
 import Button from '../components/Button';
 import './Services.css';
 
+const WHATSAPP_NUMBER = '9779742305599';
+const WHATSAPP_BASE_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
+
 const Services = () => {
+    const handleBookNow = (examType) => {
+        const message = encodeURIComponent(`Hello! I would like to book a ${examType} exam date. Please provide me with the available dates and details.`);
+        window.open(`${WHATSAPP_BASE_URL}?text=${message}`, '_blank');
+    };
+
     const services = [
         {
             icon: Globe,
@@ -63,6 +73,23 @@ const Services = () => {
             title: 'Cybersecurity',
             description: 'Protect your business with comprehensive security audits and solutions.',
             features: ['Security Audits', 'Penetration Testing', 'SSL & Encryption', 'Compliance']
+        }
+    ];
+
+    const examBookingServices = [
+        {
+            icon: Calendar,
+            title: 'IELTS Date Booking',
+            description: 'Book your IELTS exam date hassle-free. We help you secure the best available dates at convenient test centers.',
+            features: ['Academic & General Training', 'Flexible Date Selection', 'Test Center Guidance', 'Quick Confirmation'],
+            examType: 'IELTS'
+        },
+        {
+            icon: Calendar,
+            title: 'PTE Date Booking',
+            description: 'Schedule your PTE Academic exam with ease. Get expert assistance for date selection and registration process.',
+            features: ['PTE Academic', 'Fast Results (2-5 days)', 'Computer-Based Test', 'Multiple Test Dates'],
+            examType: 'PTE'
         }
     ];
 
@@ -131,6 +158,53 @@ const Services = () => {
                                 <Button to="/contact" variant="ghost" size="sm" icon={<ArrowRight size={16} />} iconPosition="right">
                                     Learn More
                                 </Button>
+                            </motion.div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* Exam Booking Section */}
+            <section className="section exam-booking-section">
+                <div className="container">
+                    <div className="section-header">
+                        <span className="section-badge">Exam Services</span>
+                        <h2 className="section-title">Book Your <span className="gradient-text">Exam Date</span></h2>
+                        <p className="section-subtitle">
+                            Secure your IELTS or PTE exam date with our hassle-free booking service.
+                        </p>
+                    </div>
+
+                    <div className="exam-booking-grid">
+                        {examBookingServices.map((service, index) => (
+                            <motion.div
+                                key={service.title}
+                                className="exam-booking-card"
+                                initial={{ opacity: 0, y: 20 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.4, delay: index * 0.1 }}
+                                whileHover={{ y: -5 }}
+                            >
+                                <div className="exam-booking-icon">
+                                    <service.icon size={36} />
+                                </div>
+                                <h3>{service.title}</h3>
+                                <p>{service.description}</p>
+                                <ul className="service-features">
+                                    {service.features.map((feature, i) => (
+                                        <li key={i}>
+                                            <CheckCircle size={14} />
+                                            {feature}
+                                        </li>
+                                    ))}
+                                </ul>
+                                <button
+                                    className="book-now-btn"
+                                    onClick={() => handleBookNow(service.examType)}
+                                >
+                                    <MessageCircle size={18} />
+                                    Book Now
+                                </button>
                             </motion.div>
                         ))}
                     </div>
