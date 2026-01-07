@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Linkedin, Twitter, Github, Mail, MapPin, Phone } from 'lucide-react';
+import {AayushImage} from '../assets/UIUX/IMG_2560.HEIC';
 import './Team.css';
 
 const Team = () => {
@@ -8,7 +9,7 @@ const Team = () => {
             id: 1,
             name: 'Aayush Prasai',
             role: 'CEO & Founder',
-            image: 'https://randomuser.me/api/portraits/men/1.jpg',
+            image: AayushImage,
             bio: 'Visionary leader with 10+ years in tech entrepreneurship',
             social: {
                 linkedin: 'https://linkedin.com',
