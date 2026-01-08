@@ -111,7 +111,7 @@ const Gallery = () => {
                     <h1>Our <span className="gradient-text">Gallery</span></h1>
                     <p>
                         Take a glimpse into our work culture, team activities,
-                        and memorable moments at WESELLIT.
+                        and memorable moments at BSEduTech.
                     </p>
                 </motion.div>
             </section>

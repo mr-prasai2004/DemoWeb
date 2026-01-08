@@ -159,9 +159,9 @@ const Team = () => {
                                 <Mail size={20} />
                                 <span>aayuyhsprasai@gmail.com</span>
                             </a>
-                            <a href="tel:+9779742305599" className="contact-item">
+                            <a href="tel:+9779869141840" className="contact-item">
                                 <Phone size={20} />
-                                <span>+977 9742305599</span>
+                                <span>+977 9869141840</span>
                             </a>
                             <div className="contact-item">
                                 <MapPin size={20} />

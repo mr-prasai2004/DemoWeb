@@ -10,7 +10,7 @@ const testimonials = [
         role: 'CEO, TechStart Nepal',
         image: 'https://randomuser.me/api/portraits/men/32.jpg',
         rating: 5,
-        text: 'WESELLIT transformed our online presence completely. Their web development team delivered a stunning website that increased our conversions by 150%. Highly recommended!'
+        text: 'BSEduTech transformed our online presence completely. Their web development team delivered a stunning website that increased our conversions by 150%. Highly recommended!'
     },
     {
         id: 2,
@@ -26,7 +26,7 @@ const testimonials = [
         role: 'Founder, EduTech Solutions',
         image: 'https://randomuser.me/api/portraits/men/52.jpg',
         rating: 5,
-        text: 'The mobile app they developed for us exceeded all expectations. Clean UI, smooth performance, and delivered on time. WESELLIT is our go-to IT partner now.'
+        text: 'The mobile app they developed for us exceeded all expectations. Clean UI, smooth performance, and delivered on time. BSEduTech is our go-to IT partner now.'
     },
     {
         id: 4,

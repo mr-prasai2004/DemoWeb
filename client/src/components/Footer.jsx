@@ -9,6 +9,7 @@ import {
     Twitter,
     ArrowUp
 } from 'lucide-react';
+import bsedutechLogo from '../assets/bsedutech_logo.png';
 import './Footer.css';
 
 const Footer = () => {
@@ -34,10 +35,10 @@ const Footer = () => {
     ];
 
     const socialLinks = [
-        { icon: Facebook, href: 'https://facebook.com/wesellit', label: 'Facebook' },
-        { icon: Instagram, href: 'https://instagram.com/wesellit', label: 'Instagram' },
-        { icon: Linkedin, href: 'https://linkedin.com/company/wesellit', label: 'LinkedIn' },
-        { icon: Twitter, href: 'https://twitter.com/wesellit', label: 'Twitter' },
+        { icon: Facebook, href: 'https://facebook.com/bsedutech', label: 'Facebook' },
+        { icon: Instagram, href: 'https://instagram.com/bsedutech', label: 'Instagram' },
+        { icon: Linkedin, href: 'https://linkedin.com/company/bsedutech', label: 'LinkedIn' },
+        { icon: Twitter, href: 'https://twitter.com/bsedutech', label: 'Twitter' },
     ];
 
     return (
@@ -48,12 +49,11 @@ const Footer = () => {
                         {/* Company Info */}
                         <div className="footer-col footer-about">
                             <Link to="/" className="footer-logo">
-                                <span className="logo-icon">W</span>
-                                <span className="logo-text">WESELLIT</span>
+                                <span className="logo-text"><span className="logo-bs">BS</span>EduTech</span>
                             </Link>
                             <p className="footer-description">
-                                Transforming businesses with innovative IT solutions. We deliver
-                                excellence in web development, mobile apps, and digital marketing.
+                                Your trusted partner for IELTS, PTE exam preparation and date booking.
+                                We deliver excellence in education technology and study abroad services.
                             </p>
                             <div className="footer-social">
                                 {socialLinks.map((social) => (
@@ -105,7 +105,7 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <Phone size={18} />
-                                    <a href="tel:+9779742305599">+977 9742305599</a>
+                                    <a href="tel:+9779869141840">+977 9869141840</a>
                                 </li>
                                 <li>
                                     <Mail size={18} />
@@ -121,7 +121,7 @@ const Footer = () => {
             <div className="footer-bottom">
                 <div className="container">
                     <div className="footer-bottom-content">
-                        <p>&copy; {new Date().getFullYear()} WESELLIT. All rights reserved.</p>
+                        <p>&copy; {new Date().getFullYear()} BSEduTech. All rights reserved.</p>
                         <button className="scroll-top" onClick={scrollToTop} aria-label="Scroll to top">
                             <ArrowUp size={20} />
                         </button>

@@ -56,7 +56,7 @@ const Contact = () => {
 
     const contactInfo = [
         { icon: MapPin, label: 'Address', value: 'Kathmandu, Nepal' },
-        { icon: Phone, label: 'Phone', value: '+977 9742305599', href: 'tel:+9779742305599' },
+        { icon: Phone, label: 'Phone', value: '+977 9869141840', href: 'tel:+9779869141840' },
         { icon: Mail, label: 'Email', value: 'aayuyhsprasai@gmail.com', href: 'mailto:aayuyhsprasai@gmail.com' },
         { icon: Clock, label: 'Business Hours', value: 'Sun-Fri: 9AM - 6PM' }
     ];
@@ -222,7 +222,7 @@ const Contact = () => {
                                     allowFullScreen=""
                                     loading="lazy"
                                     referrerPolicy="no-referrer-when-downgrade"
-                                    title="WESELLIT Location"
+                                    title="BSEduTech Location"
                                 />
                             </div>
                         </div>

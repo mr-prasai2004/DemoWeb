@@ -11,7 +11,7 @@ const Testimonials = () => {
             role: 'CEO, TechStart Nepal',
             image: 'https://randomuser.me/api/portraits/men/32.jpg',
             rating: 5,
-            text: 'WESELLIT transformed our online presence completely. Their web development team delivered a stunning website that increased our conversions by 150%. The attention to detail and commitment to quality was exceptional. Highly recommended for any business looking to establish a strong digital presence!'
+            text: 'BSEduTech transformed our online presence completely. Their web development team delivered a stunning website that increased our conversions by 150%. The attention to detail and commitment to quality was exceptional. Highly recommended for any business looking to establish a strong digital presence!'
         },
         {
             id: 2,
@@ -27,7 +27,7 @@ const Testimonials = () => {
             role: 'Founder, EduTech Solutions',
             image: 'https://randomuser.me/api/portraits/men/52.jpg',
             rating: 5,
-            text: 'The mobile app they developed for us exceeded all expectations. Clean UI, smooth performance, and delivered on time. WESELLIT is our go-to IT partner now. They took our vision and turned it into a beautiful, functional app that our users love.'
+            text: 'The mobile app they developed for us exceeded all expectations. Clean UI, smooth performance, and delivered on time. BSEduTech is our go-to IT partner now. They took our vision and turned it into a beautiful, functional app that our users love.'
         },
         {
             id: 4,
@@ -43,7 +43,7 @@ const Testimonials = () => {
             role: 'CTO, FinanceHub',
             image: 'https://randomuser.me/api/portraits/men/75.jpg',
             rating: 5,
-            text: 'Working with WESELLIT was a game-changer for our fintech startup. They built a secure, scalable platform that handles thousands of transactions daily. Their understanding of both technology and business requirements is impressive.'
+            text: 'Working with BSEduTech was a game-changer for our fintech startup. They built a secure, scalable platform that handles thousands of transactions daily. Their understanding of both technology and business requirements is impressive.'
         },
         {
             id: 6,
@@ -51,7 +51,7 @@ const Testimonials = () => {
             role: 'Owner, Kathmandu Crafts',
             image: 'https://randomuser.me/api/portraits/women/82.jpg',
             rating: 5,
-            text: 'The e-commerce platform WESELLIT built for us helped take our local craft business global. We now ship to 15+ countries! The SEO optimization they did brought in organic traffic we never thought possible.'
+            text: 'The e-commerce platform BSEduTech built for us helped take our local craft business global. We now ship to 15+ countries! The SEO optimization they did brought in organic traffic we never thought possible.'
         }
     ];
 
@@ -73,7 +73,7 @@ const Testimonials = () => {
                     <h1>Client <span className="gradient-text">Testimonials</span></h1>
                     <p>
                         Don't just take our word for it. Here's what our valued clients
-                        have to say about working with WESELLIT.
+                        have to say about working with BSEduTech.
                     </p>
                 </motion.div>
             </section>
@@ -160,7 +160,7 @@ const Testimonials = () => {
                     >
                         <h2>Ready to Join Our Success Stories?</h2>
                         <p>
-                            Let's discuss how WESELLIT can help transform your business.
+                            Let's discuss how BSEduTech can help transform your business.
                         </p>
                         <Button to="/contact" variant="secondary" size="lg" icon={<ArrowRight size={20} />} iconPosition="right">
                             Start Your Project

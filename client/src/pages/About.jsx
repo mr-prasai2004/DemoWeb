@@ -39,12 +39,12 @@ const About = () => {
     ];
 
     const whyChooseUs = [
-        'Expert team with 5+ years of experience',
-        'Transparent pricing with no hidden costs',
-        'Agile development methodology',
+        'Expert IELTS & PTE coaching team',
+        'Successful visa approval track record',
+        'Professional web & app development',
         '100% client satisfaction rate',
-        'On-time project delivery guarantee',
-        '24/7 dedicated support team'
+        'Modern digital solutions',
+        'Complete documentation support'
     ];
 
     const stats = [
@@ -72,10 +72,10 @@ const About = () => {
                         transition={{ duration: 0.6 }}
                     >
                         <span className="section-badge">About Us</span>
-                        <h1>We Are <span className="gradient-text">WESELLIT</span></h1>
+                        <h1>We Are <span className="gradient-text">BSEduTech</span></h1>
                         <p>
-                            A passionate team of developers, designers, and digital strategists
-                            dedicated to transforming businesses through innovative technology solutions.
+                            A passionate team of education counselors, developers, and digital experts
+                            helping students study abroad and businesses grow digitally.
                         </p>
                     </motion.div>
                 </div>
@@ -91,9 +91,9 @@ const About = () => {
                             </div>
                             <h3>Our Mission</h3>
                             <p>
-                                To empower businesses with cutting-edge digital solutions that drive growth,
-                                enhance efficiency, and create lasting value. We are committed to delivering
-                                exceptional quality and innovation in every project we undertake.
+                                To empower students with expert guidance for IELTS, PTE, visa processing,
+                                and study abroad services while providing innovative digital solutions
+                                including web development, mobile apps, and digital marketing.
                             </p>
                         </div>
 
@@ -103,9 +103,9 @@ const About = () => {
                             </div>
                             <h3>Our Vision</h3>
                             <p>
-                                To be the leading IT company in Nepal, recognized globally for our innovative
-                                solutions, exceptional service, and commitment to helping businesses thrive
-                                in the digital age.
+                                To be Nepal's leading education consultancy and software company,
+                                helping students achieve global education dreams while delivering
+                                cutting-edge technology solutions for businesses.
                             </p>
                         </div>
                     </div>
@@ -144,17 +144,16 @@ const About = () => {
 
                         <div className="story-content">
                             <span className="section-badge">Our Story</span>
-                            <h2>Building Digital Excellence Since <span className="gradient-text">2020</span></h2>
+                            <h2>Growing Together Since <span className="gradient-text">2020</span></h2>
                             <p>
-                                WESELLIT was founded in Kathmandu, Nepal with a vision to bridge the gap
-                                between businesses and technology. What started as a small team of passionate
-                                developers has grown into a full-service digital agency.
+                                BSEduTech was founded in Kathmandu, Nepal with a dual vision - to help
+                                students achieve their dreams of studying abroad and to provide businesses
+                                with modern digital solutions.
                             </p>
                             <p>
-                                Over the years, we have helped countless businesses transform their digital
-                                presence, streamline operations, and reach new heights of success. Our journey
-                                has been defined by continuous learning, innovation, and an unwavering commitment
-                                to our clients' success.
+                                Today, we successfully prepare students for IELTS and PTE, process visas,
+                                and guide them to international education. Alongside, our tech team builds
+                                websites, mobile apps, and digital marketing solutions for growing businesses.
                             </p>
 
                             <div className="why-choose-grid">
@@ -210,9 +209,9 @@ const About = () => {
             <section className="cta-section">
                 <div className="container">
                     <div className="cta-content">
-                        <h2>Ready to Transform Your <span className="gradient-text">Business?</span></h2>
+                        <h2>Ready to Get <span className="gradient-text">Started?</span></h2>
                         <p>
-                            Let's discuss how we can help you achieve your digital goals.
+                            Whether you need study abroad guidance or digital solutions for your business, we're here to help.
                         </p>
                         <div className="cta-actions">
                             <Button to="/contact" variant="secondary" size="lg" icon={<ArrowRight size={20} />} iconPosition="right">

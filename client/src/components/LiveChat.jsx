@@ -10,7 +10,7 @@ const LiveChat = () => {
         {
             id: 1,
             type: 'bot',
-            text: 'Hi there! 👋 Welcome to WESELLIT. How can I help you today?',
+            text: 'Hi there! 👋 Welcome to BSEduTech. How can I help you today?',
             time: new Date()
         }
     ]);
@@ -81,7 +81,7 @@ const LiveChat = () => {
                                     <Bot size={20} />
                                 </div>
                                 <div>
-                                    <span className="chat-title">WESELLIT Support</span>
+                                    <span className="chat-title">BSEduTech Support</span>
                                     <span className="chat-status">
                                         <span className="status-dot"></span>
                                         Online

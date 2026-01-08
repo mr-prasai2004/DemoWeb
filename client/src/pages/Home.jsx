@@ -62,10 +62,10 @@ const Home = () => {
     ];
 
     const features = [
-        'Expert team of developers and designers',
-        'On-time project delivery guaranteed',
-        '24/7 customer support and maintenance',
-        'Transparent pricing with no hidden costs'
+        'Expert IELTS & PTE preparation guidance',
+        'Visa processing and documentation support',
+        'Professional web & app development',
+        'Digital marketing solutions'
     ];
 
     return (
@@ -92,16 +92,16 @@ const Home = () => {
                     >
                         <span className="hero-badge">
                             <Rocket size={16} />
-                            Welcome to WESELLIT
+                            Welcome to BSEduTech
                         </span>
 
                         <h1>
-                            We Build <span className="hero-highlight">Digital Solutions</span> That Drive Success
+                            Your Partner for <span className="hero-highlight">Education & Technology</span>
                         </h1>
 
                         <p className="hero-description">
-                            Transform your business with cutting-edge technology. We deliver innovative
-                            web and mobile solutions that help you stay ahead of the competition.
+                            Expert guidance for IELTS, PTE, visa processing, and study abroad counseling.
+                            Plus innovative web, mobile, and digital marketing solutions for businesses.
                         </p>
 
                         <div className="hero-features">
@@ -235,15 +235,15 @@ const Home = () => {
 
                         <div className="about-preview-content">
                             <span className="section-badge">About Us</span>
-                            <h2>Transforming Ideas Into <span className="gradient-text">Digital Reality</span></h2>
+                            <h2>Education Consultancy & <span className="gradient-text">Software Solutions</span></h2>
                             <p>
-                                WESELLIT is a leading IT company based in Kathmandu, Nepal. We specialize in
-                                creating innovative digital solutions that help businesses grow and succeed
-                                in today's competitive market.
+                                BSEduTech combines education consultancy with technology services.
+                                We help students with IELTS, PTE coaching, visa processing, and study
+                                abroad guidance.
                             </p>
                             <p>
-                                Our team of experienced developers, designers, and digital marketers work
-                                together to deliver exceptional results for our clients.
+                                Our tech team builds modern websites, mobile apps, and provides digital
+                                marketing solutions to help businesses grow in the digital age.
                             </p>
 
                             <div className="about-features">

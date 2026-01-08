@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ChevronDown } from 'lucide-react';
+import bsedutechLogo from '../assets/bsedutech_logo.png';
 import './Header.css';
 
 const Header = () => {
@@ -39,8 +40,7 @@ const Header = () => {
             <div className="container">
                 <nav className="nav">
                     <Link to="/" className="logo">
-                        <span className="logo-icon">W</span>
-                        <span className="logo-text">WESELLIT</span>
+                        <span className="logo-text"><span className="logo-bs">BS</span>EduTech</span>
                     </Link>
 
                     {/* Desktop Navigation */}

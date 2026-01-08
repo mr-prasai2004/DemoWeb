@@ -30,11 +30,20 @@
     margin-bottom: var(--space-4);
 }
 
-.footer-logo span {
-    background: var(--gradient-primary);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+.footer-logo .logo-text {
+    font-size: var(--font-size-2xl);
+    font-weight: 800;
+    color: #22d3ee;
+}
+
+.footer-logo .logo-bs {
+    color: #ffffff;
+}
+
+.footer-logo-image {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
 }
 
 .footer-about p {

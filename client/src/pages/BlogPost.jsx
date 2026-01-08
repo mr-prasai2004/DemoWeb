@@ -39,7 +39,7 @@ const BlogPost = () => {
         <h2>Conclusion</h2>
         <p>The future of web development is exciting and full of opportunities. By embracing these trends and technologies, developers and businesses alike can create more powerful, efficient, and user-friendly web applications.</p>
       `,
-            author: 'WESELLIT Team',
+            author: 'BSEduTech Team',
             authorImage: 'https://randomuser.me/api/portraits/men/1.jpg',
             image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1200',
             category: 'Web Development',
