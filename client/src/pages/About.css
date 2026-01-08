@@ -257,6 +257,41 @@
     }
 }
 
+/* CTA Section for About Page */
+.cta-section {
+    background: var(--gradient-primary);
+    padding: var(--space-20) 0;
+    text-align: center;
+}
+
+.cta-content h2 {
+    font-size: var(--font-size-4xl);
+    color: white;
+    margin-bottom: var(--space-4);
+}
+
+.cta-content h2 .gradient-text {
+    background: none;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: white;
+    background-clip: unset;
+    color: white;
+}
+
+.cta-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: var(--font-size-lg);
+    max-width: 500px;
+    margin: 0 auto var(--space-8);
+}
+
+.cta-actions {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-4);
+    flex-wrap: wrap;
+}
+
 @media (max-width: 640px) {
     .about-hero h1 {
         font-size: var(--font-size-3xl);
@@ -266,5 +301,9 @@
     .values-grid,
     .why-choose-grid {
         grid-template-columns: 1fr;
+    }
+
+    .cta-content h2 {
+        font-size: var(--font-size-2xl);
     }
 }
