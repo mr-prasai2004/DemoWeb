@@ -36,5 +36,5 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`🚀 WESELLIT Server running on http://localhost:${PORT}`);
+  console.log(` WESELLIT Server running on http://localhost:${PORT}`);
 });
